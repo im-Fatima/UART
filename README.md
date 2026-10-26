@@ -18,10 +18,10 @@ The design uses a 50 MHz system clock and a default baud rate of 19,200 bps, wit
 
 | File | Description |
 |---|---|
-| [UART_TOP.sv](https://github.com/im-Fatima/UART/blob/main/UART_TOP.sv) | Integrates the UART receiver, transmitter, baud rate generator, and display logic. |
-| [UART_RX.sv](https://github.com/im-Fatima/UART/blob/main/UART_RX.sv) | Receives serial data and converts it into an 8-bit parallel byte using an FSM. |
-| [UART_TX.sv](https://github.com/im-Fatima/UART/blob/main/UART_TX.sv) | Converts parallel data into serial UART frames for transmission. |
-| [baud_rate_generator.sv](https://github.com/im-Fatima/UART/blob/main/baud_rate_generator.sv) | Generates the oversampling tick for UART timing. |
+| [UART_TOP.sv](https://github.com/im-Fatima/UART/blob/main/uart_top.sv) | Integrates the UART receiver, transmitter, baud rate generator, and display logic. |
+| [UART_RX.sv](https://github.com/im-Fatima/UART/blob/main/uart_rx.sv) | Receives serial data and converts it into an 8-bit parallel byte using an FSM. |
+| [UART_TX.sv](https://github.com/im-Fatima/UART/blob/main/uart_tx.sv) | Converts parallel data into serial UART frames for transmission. |
+| [baud_rate_generator.sv](https://github.com/im-Fatima/UART/blob/main/Baudrate.sv) | Generates the oversampling tick for UART timing. |
 | [hex_decoder.sv](https://github.com/im-Fatima/UART/blob/main/hex_decoder.sv) | Decodes 4-bit hexadecimal values into active-low seven-segment display patterns. |
 
 ## FPGA Verification
